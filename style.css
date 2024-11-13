@@ -84,13 +84,13 @@ a {
 
 .grid > div:nth-child(odd) { /* Just the side bars for explanations*/
     background-color: #370e4f;
-    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
     
 }
 
 .grid > div:nth-child(even){
     background: #512d64;
-    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
 }
 
 /* ------------------------------------ Grid for project page  ------------------------------------ */ 
