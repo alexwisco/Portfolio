@@ -25,7 +25,7 @@ body {
 /* horizontal menu */
 #menu li {
     list-style: none;
-    display: grid;
+    display: inline;
     text-decoration: none;
     grid-column-gap: 1em; 
     grid-row-gap:1em;
@@ -136,3 +136,33 @@ a {
 
 
 /* ------------------------------------ Contact menu bar   ------------------------------------ */
+
+/* ------------------------------------ Projects - Grid   ------------------------------------ */
+
+.project_grid {
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 2em; 
+    grid-row-gap:2em; 
+    text-align: center;
+    font-size: 20px;
+    /*Gonna need to fix the project title layout*/
+}
+
+.project_grid p {
+    padding: 20px;
+}
+
+.project_grid div:nth-child(odd) {
+    background-color: #300549;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+    
+}
+
+.project_grid div:nth-child(even){
+    background: #532b68;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+}
+
+
+/* ------------------------------------ Projects - Grid   ------------------------------------ */
