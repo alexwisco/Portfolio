@@ -16,16 +16,22 @@ body {
 /* ------------------------------------ menu ------------------------------------ */ 
 #menu {
     top: 0;
-    right: 1.25rem;
+    right: 2.25rem;
     position: absolute;
     color:antiquewhite;
+    position: fixed; /* sticky */
 }
 
 /* horizontal menu */
 #menu li {
     list-style: none;
-    display: inline;
+    display: grid;
     text-decoration: none;
+    grid-column-gap: 1em; 
+    grid-row-gap:1em;
+    text-align: center;
+    
+
 }
 
 #menu li a {
@@ -53,6 +59,17 @@ a {
     box-shadow: inset 100px 0 0 0 #370e4f;
   }
 
+#menu li:nth-child(odd) {
+    background-color: #300549;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+    
+}
+
+#menu li:nth-child(even){
+    background: #532b68;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+}
+
   /* ------------------------------------ menu ------------------------------------ */ 
 
 #content {
@@ -71,8 +88,8 @@ a {
 .grid {
     display:grid;
     grid-template-columns: 100%;
-    /*grid-column-gap: 1em; */
-    /*           grid-row-gap:1em; */
+    grid-column-gap: 1em; 
+    grid-row-gap:1em; 
     text-align: center;
 }
 
@@ -83,14 +100,14 @@ a {
 }
 
 .grid > div:nth-child(odd) { /* Just the side bars for explanations*/
-    background-color: #370e4f;
-    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+    background-color: #300549;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
     
 }
 
 .grid > div:nth-child(even){
-    background: #512d64;
-    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+    background: #532b68;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
 }
 
 /* ------------------------------------ Grid for project page  ------------------------------------ */ 
@@ -110,7 +127,6 @@ a {
     list-style: none;
     display: inline;
     text-decoration: none;
-    
 }
 
 #contact-menu li a {
