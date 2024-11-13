@@ -1,0 +1,83 @@
+
+
+body {
+    color: rgba(255,255,255,.8);
+    font-family: times new roman,times,times_new_romanregular,serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    min-height: 100lvh;
+    position: relative;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png"); 
+    background-color:#370e4f;
+}
+
+/*body {
+    background-color: #64336b;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+    /*background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}*/
+
+/* ------------------------------------ menu ------------------------------------ */ 
+#menu {
+    top: 0;
+    right: 1.25rem;
+    position: absolute;
+    color:antiquewhite;
+}
+
+/* horizontal menu */
+#menu li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+#menu li a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+li {
+    display: list-item;
+    /*text-align: -webkit-match-parent;*/
+    /*unicode-bidi: isolate;*/
+    color:antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #370e4f;
+    color: #370e4f;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 100px 0 0 0 #370e4f;
+    color: white;
+  }
+
+  /* ------------------------------------ menu ------------------------------------ */ 
+
+#content {
+    width: 100%;
+    max-width: 40rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 9rem 1.25rem 12rem;
+    position: relative;
+    z-index: 3;
+    font-size: 32px;
+}
+
+ /*@font-face {
+    font-family: times_new_romanregular;
+    src: url('/fonts/Times Roman.woff2')format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}*/
+
