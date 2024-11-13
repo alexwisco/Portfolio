@@ -13,12 +13,6 @@ body {
     background-color:#370e4f;
 }
 
-/*body {
-    background-color: #64336b;
-    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
-    /*background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
-}*/
-
 /* ------------------------------------ menu ------------------------------------ */ 
 #menu {
     top: 0;
@@ -57,7 +51,6 @@ a {
   }
   a:hover {
     box-shadow: inset 100px 0 0 0 #370e4f;
-    color: white;
   }
 
   /* ------------------------------------ menu ------------------------------------ */ 
@@ -71,13 +64,59 @@ a {
     position: relative;
     z-index: 3;
     font-size: 32px;
+    color:antiquewhite;
 }
 
- /*@font-face {
-    font-family: times_new_romanregular;
-    src: url('/fonts/Times Roman.woff2')format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-}*/
+/* ------------------------------------ Grid for project page  ------------------------------------ */ 
+.grid {
+    display:grid;
+    grid-template-columns: 100%;
+    /*grid-column-gap: 1em; */
+    /*           grid-row-gap:1em; */
+    text-align: center;
+}
 
+
+.grid > div {
+    background: #eee ;
+    padding: 1em;
+}
+
+.grid > div:nth-child(odd) { /* Just the side bars for explanations*/
+    background-color: #370e4f;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    
+}
+
+.grid > div:nth-child(even){
+    background: #512d64;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+/* ------------------------------------ Grid for project page  ------------------------------------ */ 
+
+/* ------------------------------------ Contact menu bar   ------------------------------------ */
+
+
+#contact-menu {
+    top: 0;
+    right: 1.25rem;
+    font-size: 24px;
+    color:antiquewhite;
+}
+
+/* horizontal menu */
+#contact-menu li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    
+}
+
+#contact-menu li a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+
+/* ------------------------------------ Contact menu bar   ------------------------------------ */
