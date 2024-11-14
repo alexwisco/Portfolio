@@ -18,7 +18,7 @@ body {
     font-size: 96px;
     animation: fadeIn 5s;
   }
-  
+
   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -41,8 +41,6 @@ body {
     grid-column-gap: 1em; 
     grid-row-gap:1em;
     text-align: center;
-    
-
 }
 
 #menu li a {
