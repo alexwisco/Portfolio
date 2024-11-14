@@ -164,5 +164,11 @@ a {
     background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
 }
 
+/* adjust columns on smaller screens*/
+@media (max-width: 750px) {
+    .project_grid{
+        grid-template-columns: 1fr;
+    }
+}
 
 /* ------------------------------------ Projects - Grid   ------------------------------------ */
