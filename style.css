@@ -2,7 +2,7 @@
 
 body {
     color: rgba(255,255,255,.8);
-    font-family: times new roman,times,times_new_romanregular,serif;
+    font-family: 'RooneySans', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
